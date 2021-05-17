@@ -15,18 +15,24 @@
   html {
     font-size: 62.5%;
     font-family: 'Jost', sans-serif;
-    background-image: url(images/174155-dark-blue-presentation-background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
- 
+ body {
+  background-image: url(images/174155-dark-blue-presentation-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  transform: translate();
+ }
   .container {
-      /* position: fixed;
+      /* 
       top: 0;
       bottom: 0;
       left: 0;
       right: 0; */
+    /* position: absolute; */
      width: 100vw;
     height: 100vh;
     background-color: #242222e3; 
@@ -290,12 +296,33 @@
   }
   
 .copy-link {
+  position: relative;
     padding-left: 30px;
     padding-right: 30px;
     background-color: transparent;
-    outline: none;
+    outline:none;
+    overflow: hidden;
+  }
+
+  .copy-link:after {
+    content: "";
+    background: #cedfce;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
   }
   
+  .copy-link:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
   .share-button, .share-dialog {
     position: absolute;
     top: 50%;
@@ -363,5 +390,8 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     color: #cccacad2;
+    background-color: transparent;
+    border: none;
+    outline: none;
   }
 

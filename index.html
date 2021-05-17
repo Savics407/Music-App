@@ -61,28 +61,28 @@
                   <button class="close-button"><svg><use href="#close"></use></svg></button>
                 </header>
                 <div class="targets">
-                  <a class="button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//savics407.github.io/Music-App/" target="_blank">
+                  <a class="button" href="https://www.facebook.com/sharer/sharer.php?u=https://savics-music-app.netlify.app/" target="_blank">
                     <svg>
                       <use href="#facebook"></use>
                     </svg>
                     <span>Facebook</span>
                   </a>
                   
-                  <a class="button" href="https://twitter.com/intent/tweet?text=https%3A//savics407.github.io/Music-App/">
+                  <a class="button" href="https://twitter.com/intent/tweet?url=https://savics-music-app.netlify.app/&text=My%20friend%20@_Savics%20created%20this%20Music%20App%20with%20love.%20:)%20Do%20you%20mind%20checking%20it%20out?" target="_blank">
                     <svg>
                       <use href="#twitter"></use>
                     </svg>
                     <span>Twitter</span>
                   </a>
                   
-                  <a class="button" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//savics407.github.io/Music-App/&title=&summary=&source=">
+                  <a class="button" href="https://www.linkedin.com/shareArticle?mini=true&url=https://savics-music-app.netlify.app/">
                     <svg>
                       <use href="#linkedin"></use>
                     </svg>
                     <span>LinkedIn</span>
                   </a>
                   
-                  <a class="button" href="mailto:?body=https%3A//savics407.github.io/Music-App/">
+                  <a class="button" href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://savics-music-app.netlify.app/%0AMy%20friend%20@_Savics%20created%20this%20Music%20App%20with%20love.%20:)%20Do%20you%20mind%20checking%20it%20out?%0AGo%20ahead%20and%20click%20the%20link%20below!">
                     <svg>
                       <use href="#email"></use>
                     </svg>
@@ -90,7 +90,7 @@
                   </a>
                 </div>
                 <div class="link">
-                  <div class="pen-url">https://savics407.github.io/Music-App/</div>
+                  <input type="text" class="pen-url" value="https://savics-music-app.netlify.app/" readonly/>
                   <button class="copy-link">Copy Link</button>
                 </div>
               </div>
@@ -118,6 +118,9 @@
                 </defs>
               </svg>
         </div>
+
+        <!-- text input field -->
+
     </div>
     <script>
         const shareButton = document.querySelector('.share');
@@ -144,6 +147,8 @@
         closeButton.addEventListener('click', event => {
         shareDialog.classList.remove('is-open');
     });
+
+ 
     </script>
     <script src="music.js"></script>
 </body>

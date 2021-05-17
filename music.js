@@ -202,3 +202,24 @@ const audio = document.getElementById('music')
     start.innerHTML = conversion(audio.currentTime)
     now.style.width = audio.currentTime / audio.duration.toFixed(3) * 100 + '%'
   }, 1000)
+
+
+  //copy text button 
+  const copy = document.querySelector('.copy-link')
+  copy.addEventListener("click", (evt) => {
+    /* Get the text field */
+    let copyText = document.querySelector(".pen-url");
+  
+    /* Select the text field */
+    copyText.select();
+    // copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+  
+    /* Alert the copied text */
+    // alert("Copied the link: " + copyText.value);
+
+})
+
+   
