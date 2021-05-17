@@ -221,5 +221,3 @@ const audio = document.getElementById('music')
     // alert("Copied the link: " + copyText.value);
 
 })
-
-   
