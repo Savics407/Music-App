@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: initial;
+    
   }
 
   .music-container {
@@ -46,6 +47,7 @@
   .playing {
     font-size: 13px;
     width: 130px;
+    margin-bottom: 2rem;
   }
   .music-container #title {
     margin-bottom: 1.5rem;
