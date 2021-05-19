@@ -1,73 +1,81 @@
 @media screen and (max-width: 320px) {
-    .musiccontrol {
-        position: relative;
-        position: absolute;
-        width: 81%;
-        bottom: 30px;
-        /* border: 1px solid; */
-        margin-top: 5rem;
-     
-    
-    }
-.musiccontrol #play {
+  .musiccontrol {
+    position: relative;
+    position: absolute;
+    width: 81%;
+    bottom: 30px;
+    /* border: 1px solid; */
+    margin-top: 5rem;
+  }
+  .musiccontrol #play {
     width: 5rem;
     font-size: 1.2rem;
     height: 5rem;
-}
-.music-container #artist {
+  }
+  .music-container #artist {
     margin-bottom: 1.5rem;
     /* border: 1px solid; */
-}
-.music-overlay {
+  }
+  .music-overlay {
     width: fit-content !important;
+  }
 }
-}
-
 
 /* Extra small devices (phones, 600px and down) */
-  @media screen and (max-width: 600px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: initial;
-    }
-  
-    .music-container {
-        width: 90%;
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+  }
+
+  .music-container {
+    width: 90%;
     height: 57rem;
     margin: auto;
-    }
-    .image-container {
-        width: 23rem;
-        height: 23rem;
-        margin: auto;
-        margin-bottom: 3rem;
-    }
-    .music-container #artist {
-        margin-bottom: 2.5rem;
-    }
   }
-  
-  @media screen and (max-width:768px) {
-      
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: initial;
-    }
-    .music-container {
-        /* width: 90%; */
+  .image-container {
+    width: 23rem;
+    height: 23rem;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .music-container #artist {
+    margin-bottom: 2.5rem;
+  }
+  .playing {
+    font-size: 13px;
+    width: 130px;
+  }
+  .music-container #title {
+    margin-bottom: 1.5rem;
+    /* border: 1px solid; */
+    margin: 0 0 0.3rem 0;
+    font-size: 2rem;
+  }
+  .music-container #artist {
+      font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+  }
+  .music-container {
+    /* width: 90%; */
     height: 55rem;
     margin: auto;
-    }
-      
   }
-  /* @media screen and (max-width:1024px) {
+}
+/* @media screen and (max-width:1024px) {
       
     
     .music-container {
         /* width: 90%; */
-   /* }
+/* }
     .music-container #artist {
         margin-bottom: 2.5rem;
         
