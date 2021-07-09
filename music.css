@@ -165,7 +165,7 @@
 }
 
 .musiccontrol .fas:hover {
-    color: grey;
+    font-size: 2.3rem;
 }
 
 /* .musiccontrol #play:hover {
