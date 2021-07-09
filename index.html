@@ -133,9 +133,9 @@
         if (navigator.share) {
             navigator.share({
                 title: 'Savics Music App',
-                url: ''
+                url: 'https://savics-music-app.netlify.app/'
             }).then(() => {
-                console.log('Thanks for sharing!');
+                alert('Thanks for sharing!');
             })
             .catch(console.error)
         } else {
