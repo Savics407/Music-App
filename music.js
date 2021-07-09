@@ -39,6 +39,12 @@ play.addEventListener('click', () => {
 
 const playList = [
     {
+        name: "Tim_Godfrey_-_Toya_ft_Israel_Houghton_",
+        title: "TOYA",
+        artist: "Tim Godfrey ft Isreal Houghton",
+        image: "toya",
+    },
+    {
         name: "Kadosh",
         title: "Kadosh",
         artist: "PV Idemudia",
@@ -76,6 +82,24 @@ const playList = [
         title: "Reckless Love",
         artist: "Johny Drille",
         image: "doingit"
+    },
+    {
+        name: "promises",
+        title: "Promises",
+        artist: "Maverick City Music",
+        image: "promises"
+    },
+    {
+        name: "OPENUP",
+        title: "Open Up",
+        artist: "Dunsin Oyekan",
+        image: "openup"
+    },
+    {
+        name: "JUSTICE ft GUC - GIVE",
+        title: "GIVE",
+        artist: "Jusctic ft GUC",
+        image: "give"
     },
 ];
 
